@@ -2,10 +2,18 @@ package ru.yesdo.model;
 
 /**
  * Created by lameroot on 13.12.14.
- * Список пермиссий, которые есть у мерчанта, их выдаёт администратор системы
+ * Список пермиссий, которые есть у пользователя, их выдаёт тот, кто создал его
  */
 public enum Permission {
+    MANAGE_USERS,
+    MANAGE_MERCHANTS,
+    MANAGE_ACTIVITIES,
+    MANAGE_PRODUCTS,
+    LIST_STATISTICS,
+    LIST_TRANSACTIONS,
+    REVERSE_PERMISSION,
+    APPLICATION_ADMIN,
+    REMOVE_PRODUCT,
+    LIST_USER_ACTIONS
 
-    LIMIT_ACTIVITY,
-    LIMIT_TAG
 }

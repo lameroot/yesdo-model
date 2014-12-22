@@ -12,7 +12,7 @@ import java.util.Set;
 public class User {
 
     private Long id;
-    private Set<Option> options;//опции которыми обладает пользваотель
+    private Set<Permission> permissions;//опции которыми обладает пользваотель
     private Merchant merchant;//если это пользователь мерчанта, то это он
     //whole params as UserDetails from Spring Security
     private String username;

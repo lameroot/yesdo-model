@@ -19,5 +19,6 @@ public class Merchant {
     private Set<Media> medias;//список меди-ресурсов для данного мерчанта, это могут быть загружаемые видео или картинки
     private Blog description;//описание компании
     private Set<Blog> blogs;//список блогов, которые есть у мерчанта
-    private Set<Permission> permissions;//список пермиссий, которыми он обладает
+    private Set<Option> options;//список пермиссий, которыми он обладает
+    private boolean enabled;//доступен или нет
 }
