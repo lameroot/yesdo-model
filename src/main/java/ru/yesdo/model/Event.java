@@ -12,11 +12,13 @@ public class Event {
 
     private Long id;
     private String title;//название
-    private String description;//описание
+    private Blog description;//описание
     private EventTime time;//время когда будет происходить данное мероприятие
     private Location location;//гео-данные где оно будет происходить
     private EventType type;//тип события
     private EventPrice price;//цена на событие
-
+    private Date createdAt;//дата создания
+    private Merchant merchant;//может быть null, так как просто пользователь может создать событие для себя
+    private User owner;//обязательный параметр, тот кто создал
 
 }
