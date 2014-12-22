@@ -11,5 +11,6 @@ public class SearchProductCriteria {
     private Double startPrice;
     private Double endPrice;
     private Location location;
+    //искать в области или ещё как
 
 }
