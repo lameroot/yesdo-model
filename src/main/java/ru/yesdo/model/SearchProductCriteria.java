@@ -11,4 +11,5 @@ public class SearchProductCriteria {
     private Double startPrice;
     private Double endPrice;
     private Location location;
+
 }
