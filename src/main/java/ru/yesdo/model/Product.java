@@ -36,4 +36,5 @@ public class Product {
     private ProductType productType;//тип продукта
     private Set<Tag> tags;//список тэгов, кол-во должно ограничиваться пермиссией, если это делает мерчант
     private Set<User> users;//список пользоватлей, кто воспользовался данной услугой или в случае с пользователем, кто просмотрел или лайкнул данный продукт
+    private boolean enabled;//доступен или нет.
 }
